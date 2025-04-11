@@ -1,1 +1,12 @@
-
+let arrai=[];
+arrai.push("Pedro");
+arrai.push("Felipe");
+arrai.push("Jennifer");
+console.log("Fila:", arrai);
+let pessoa1 = arrai.shift();
+console.log("atendido:", pessoa1);
+let pessoa2 = arrai.shift();
+console.log("atendido:", pessoa2);
+let pessoa3 = arrai.shift();
+console.log("atendido:", pessoa3);
+console.log("Fila final", arrai);
