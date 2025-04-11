@@ -1,0 +1,14 @@
+let devoluçoes=[];
+devoluçoes.unshift({titulo: "Livro não Sei", Autor: "Cleiton", Atrasado: true});
+devoluçoes.unshift({titulo: "Chapéuzinho Vermelho", Autor: "Não Lembro", Atrasado: false});
+devoluçoes.unshift({titulo: "Diario de Um Banana", Autor: "Gregory", Atrasado: true});
+console.log(devoluçoes[0]);
+console.log(devoluçoes[1]);
+console.log(devoluçoes[2]);
+let livroremovido=devoluçoes[0].pop();
+console.log("Removido", livroremovido);
+let livroremovido=devoluçoes[1].pop();
+console.log("Removido", livroremovido);
+let livroremovido=devoluçoes[2].pop();
+console.log("Removido", livroremovido);
+console.log("Arrai final:", devoluçoes);
